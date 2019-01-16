@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://ws.simulador.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ws.simulador.com/">
+
+<xs:element name="getlistaOndas2DFinito" type="tns:getlistaOndas2DFinito"/>
+
+<xs:element name="getlistaOndas2DFinitoResponse" type="tns:getlistaOndas2DFinitoResponse"/>
+
+<xs:element name="getlistaOndas2DInfinito" type="tns:getlistaOndas2DInfinito"/>
+
+<xs:element name="getlistaOndas2DInfinitoResponse" type="tns:getlistaOndas2DInfinitoResponse"/>
+
+<xs:element name="getlistaOndas3DFinito" type="tns:getlistaOndas3DFinito"/>
+
+<xs:element name="getlistaOndas3DFinitoResponse" type="tns:getlistaOndas3DFinitoResponse"/>
+
+<xs:element name="getlistaOndas3DInfinito" type="tns:getlistaOndas3DInfinito"/>
+
+<xs:element name="getlistaOndas3DInfinitoResponse" type="tns:getlistaOndas3DInfinitoResponse"/>
+
+<xs:element name="guardarOnda" type="tns:guardarOnda"/>
+
+<xs:element name="guardarOndaResponse" type="tns:guardarOndaResponse"/>
+
+<xs:complexType name="getlistaOndas3DInfinito">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getlistaOndas3DInfinitoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="guardarOnda">
+<xs:sequence>
+<xs:element name="JSONAusencia" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="guardarOndaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getlistaOndas2DFinito">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getlistaOndas2DFinitoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getlistaOndas2DInfinito">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getlistaOndas2DInfinitoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getlistaOndas3DFinito">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getlistaOndas3DFinitoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
