@@ -1,0 +1,9 @@
+
+ articulo
+	corregir
+
+diapositivas
+
+planificado 04-06-2018  ---  13-07-2018
+real 04-06-2018 --- 03-08-2018
+
