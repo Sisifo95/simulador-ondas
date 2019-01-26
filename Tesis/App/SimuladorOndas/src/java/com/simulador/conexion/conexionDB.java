@@ -22,9 +22,9 @@ public class conexionDB {
    
     public Connection conectar()
     {        
-        String cadena = "jdbc:postgresql://ec2-54-243-223-245.compute-1.amazonaws.com/dcu7do3mp74ph7";
-        String user = "jlzylxhaqxakfq";
-        String pass = "bc8cffc2769274a1ba71c3f4204cd708e8dab37bbca186b4d80fb28f01b44904";
+        String cadena = "jdbc:postgresql://ec2-107-22-162-8.compute-1.amazonaws.com/dagm35oa09p3v1";
+        String user = "vjigmwexqewgpt";
+        String pass = "7d9c8ee4cf46483e1d008a18a00bf2b06d74687a360bcbf329998ae4cd6c5d6d";
         
         try {
             Class.forName("org.postgresql.Driver");
